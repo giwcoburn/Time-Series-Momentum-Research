@@ -1,7 +1,7 @@
 This project replicates and optimises the "Time Series Momentum" (Moskowitz, Ooi, Pedersen, 2012) as a risk hedge in the post-2020 inflationary macro regime.
 
 
-The basic model used a 12-month lookback design providing diversification; however, this engine implements a Multi-Frequency Signal Bleeding strategy to reduce whipsaw variance. This strategy generated a significant amount of Crisis Alpha during the 2022 inflationary bear market, delivering positive returns, whereas the S&P500, used as a control in this research, suffered double digit losses.
+The basic model used a 12-month lookback design providing diversification; however, this engine implements a Multi-Frequency Signal Blending strategy to reduce whipsaw variance. This strategy generated a significant amount of Crisis Alpha during the 2022 inflationary bear market, delivering positive returns, whereas the S&P500, used as a control in this research, suffered double digit losses.
 
 
 1.	KEY FINDINGS:
