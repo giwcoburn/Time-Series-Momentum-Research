@@ -11,7 +11,10 @@ The basic model used a 12-month lookback design providing diversification; howev
    Beta: -0.08
   
   Statistical Significance: t = 4.61
-2.	Strategy Methodology: The logic of the engine moves beyond the typical "buy and hold" strategy. Multi-frequency signal bleeding allows for dynamic adjustment of exposure to assets based on trend and volatility. Instead of a 12-month "lookback" signal, the algorithm blends three-time horizons together to create a continuous "conviction score".
+  
+2. Strategy Methodology:
+
+The logic of the engine moves beyond the typical "buy and hold" strategy. Multi-frequency signal bleeding allows for dynamic adjustment of exposure to assets based on trend and volatility. Instead of a 12-month "lookback" signal, the algorithm blends three-time horizons together to create a continuous "conviction score".
 
 
 Fast Trend: 1 Month, captures immediate breakouts 
@@ -31,6 +34,10 @@ The basic model using the 12-month lookback method had a vol target of 0.15 (15%
 <img width="1270" height="706" alt="Tradingalgoblended" src="https://github.com/user-attachments/assets/4eb55072-dca0-470a-aad5-2d6039b4a1b8" />
 
 During 2022, traditional portfolios failed due to stock/bond correlation spiking to 1.0. However this strategy successfully identifies the downtrend in equities and uptrend in commodities/USD, generating positive returns when liquidity was needed most.
+
+Post 2024 U.S. Election, highlights the cost of insurance.While the S&P 500 rallied ~20% on deregulation optimism, the diversified strategy trailed due to exposure in fixed income (which suffered from reflationary fears). This divergence confirms the strategy is orthogonal to the business cycle.
+
+
 
 4.	Statistical variation: To ensure results were not random or luck, an Ordinary Least Squares regression was conducted against the S&P500. 
 
