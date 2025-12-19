@@ -37,7 +37,7 @@ During 2022, traditional portfolios failed due to stock/bond correlation spiking
 
 Post 2024 U.S. Election, highlights the cost of insurance.While the S&P 500 rallied ~20% on deregulation optimism, the diversified strategy trailed due to exposure in fixed income (which suffered from reflationary fears). This divergence confirms the strategy is orthogonal to the business cycle.
 
-
+![Trump Era Performance](trumperaalgo.png)
 
 4.	Statistical variation: To ensure results were not random or luck, an Ordinary Least Squares regression was conducted against the S&P500. 
 
